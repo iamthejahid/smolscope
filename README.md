@@ -4,6 +4,8 @@
 **SmolScope** is a Flutter-based mobile application that lets you interact with your surroundings using vision-language models — completely offline.  
 The app captures camera frames and sends them to a locally hosted [SmolVLM](https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF) model via [llama.cpp](https://github.com/ggml-org/llama.cpp), which returns natural language descriptions in real-time.
 
+Since this is just a POC, the UI is as basic as it gets ⚠️ — focused on functionality over polish.
+
 ## 🔍 What it does
 
 - Takes real-time photos from the mobile camera
